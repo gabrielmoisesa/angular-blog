@@ -23,13 +23,18 @@ header {
     display: flex;
     align-items: center;
 
+      .github-icon {
+        width: 30px;
+      }
+
     & button {
       text-transform: uppercase;
       font-weight: 700;
       font-size: 0.8rem;
       height: 2.25rem;
       width: 7.75rem;
-      letter-spacing: 1.9px;                                                                                                                                
+      letter-spacing: 1.9px;
+      margin-left: 2.5rem;                                                                                                                               
     }
 
     & .vertical-line {
