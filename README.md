@@ -1,3 +1,3 @@
-# Angular News
+# Angular Blog
 
 Under development 🚧
