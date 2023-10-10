@@ -2,10 +2,16 @@ header {
   border-bottom: 1px solid var(--light-gray);
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 0 2.5rem;
 
-  & img {
-    width: 55px;
-    height: 55px;
+  .brand-logo-container {
+    display: flex;
+    align-items: center;
+    
+    & img {
+      width: 55px;
+      height: 55px;
+    }
   }
 }
