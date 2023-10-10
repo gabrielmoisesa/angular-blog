@@ -1,5 +1,5 @@
 header {
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px solid var(--light-gray);
   display: flex;
   align-items: center;
   padding: 0 2.5rem;
