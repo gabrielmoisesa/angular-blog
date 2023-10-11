@@ -2,6 +2,8 @@
   <img src="{{imgSrc}}" alt="{{title}}">
   <div class="card-info">
     <p>{{date}}</p>
-    <h2>{{title}}</h2>
+    <a [routerLink]="['/post', postUrl]">
+      <h2>{{title}}</h2>
+    </a>
   </div>
 </div>
