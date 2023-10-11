@@ -1,5 +1,7 @@
 <div class="post-card-container">
-  <img src="{{imgSrc}}" alt="{{title}}">
+  <a [routerLink]="['/post', postUrl]">
+    <img src="{{imgSrc}}" alt="{{title}}">
+  </a>
   <div class="card-info">
     <p>{{date}}</p>
     <a [routerLink]="['/post', postUrl]">
