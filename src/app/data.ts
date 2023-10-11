@@ -1,3 +1,5 @@
+import { PostType } from '../types';
+
 const data:PostType[] = [
   {
     img: 'https://miro.medium.com/v2/resize:fit:720/0*1yo17Ov28sa7p33N',
@@ -20,3 +22,5 @@ const data:PostType[] = [
     title: 'Angular at I/O 2022'
   },
 ]
+
+export default data;

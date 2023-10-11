@@ -1,4 +1,11 @@
 <div>
   <h1>Latest Posts</h1>
-  <app-post-card></app-post-card>
+  <div *ngFor="let post of data">
+    <app-post-card
+      [imgSrc]="post.img"
+      [title]="post.title"
+      [date]="post.date"
+    >
+    </app-post-card>
+  </div>
 </div>
