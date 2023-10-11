@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-post-card',
@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class PostCardComponent {
 
+  @Input() imgSrc: string = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/310px-Placeholder_view_vector.svg.png';
+  @Input() date: string = 'Post Date';
+  @Input() title: string = 'Post Title';
 }
