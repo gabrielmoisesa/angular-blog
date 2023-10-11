@@ -49,3 +49,16 @@
     }
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .post-card-container {
+    width: 100%;
+
+    .card-info {
+      & h2 {
+        font-size: 1.3rem;
+        max-width: 15rem;
+      }
+    }
+  }
+}
