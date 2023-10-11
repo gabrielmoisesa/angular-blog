@@ -1,16 +1,21 @@
 <div *ngIf="getPostDataByTitle(postTitle); let post">
-  <img src={{post.img}} alt={{post.title}}>
-  <p>< Back to posts</p>
-  <h1>{{post.title}}</h1>
-  <h2>
-    Suspendisse sit amet auctor nibh. Sed non mi lacinia, semper urna sed, posuere lorem. Proin tempor egestas mauris a lobortis. Donec dignissim justo ac mattis pulvinar. Etiam sodales dignissim lacinia. Sed non vehicula quam, non finibus velit. Aenean ac convallis est.
-  </h2>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tellus ut ligula dapibus lobortis. Phasellus dapibus ipsum ut lacus ultrices facilisis. Cras eleifend pharetra aliquet. Integer tristique tincidunt congue. Vivamus lobortis nunc mi, ac condimentum sem elementum et. Donec mattis lacus at risus fermentum lobortis. Etiam placerat congue lacus. Duis a ipsum et enim viverra tincidunt a sed nisl. Quisque dapibus consectetur ex et euismod.
-  </p>
-  <p>
-    Aenean euismod massa nulla, consectetur finibus libero porttitor et. Aliquam consectetur, diam quis suscipit viverra, tortor quam finibus libero, sit amet ullamcorper nunc ipsum eget nibh. Nulla dignissim augue nunc, quis imperdiet lacus sodales vitae. Quisque hendrerit tellus sit amet justo placerat feugiat. Proin id tortor turpis. Sed id libero urna. Quisque aliquam ornare odio, ac fermentum quam vehicula ut. Duis auctor ullamcorper enim, ut faucibus nibh euismod et. Aenean feugiat suscipit tortor quis eleifend. Vivamus rhoncus suscipit nulla eu malesuada. Suspendisse blandit lobortis diam ut iaculis. Mauris tincidunt, ipsum at condimentum ornare, metus lacus commodo odio, eu fermentum nisi ex eget eros.
-  </p>
+  <div class="post-color" [style.background-color]="post.color"></div>
+  <div class="post-cover">
+    <img src={{post.img}} alt={{post.title}}>
+  </div>
+  <div class="post-content">
+    <p>< Back to posts</p>
+    <h1>{{post.title}}</h1>
+    <h2>
+      Suspendisse sit amet auctor nibh. Sed non mi lacinia, semper urna sed, posuere lorem. Proin tempor egestas mauris a lobortis. Donec dignissim justo ac mattis pulvinar. Etiam sodales dignissim lacinia. Sed non vehicula quam, non finibus velit. Aenean ac convallis est.
+    </h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae tellus ut ligula dapibus lobortis. Phasellus dapibus ipsum ut lacus ultrices facilisis. Cras eleifend pharetra aliquet. Integer tristique tincidunt congue. Vivamus lobortis nunc mi, ac condimentum sem elementum et. Donec mattis lacus at risus fermentum lobortis. Etiam placerat congue lacus. Duis a ipsum et enim viverra tincidunt a sed nisl. Quisque dapibus consectetur ex et euismod.
+    </p>
+    <p>
+      Aenean euismod massa nulla, consectetur finibus libero porttitor et. Aliquam consectetur, diam quis suscipit viverra, tortor quam finibus libero, sit amet ullamcorper nunc ipsum eget nibh. Nulla dignissim augue nunc, quis imperdiet lacus sodales vitae. Quisque hendrerit tellus sit amet justo placerat feugiat. Proin id tortor turpis. Sed id libero urna. Quisque aliquam ornare odio, ac fermentum quam vehicula ut. Duis auctor ullamcorper enim, ut faucibus nibh euismod et. Aenean feugiat suscipit tortor quis eleifend. Vivamus rhoncus suscipit nulla eu malesuada. Suspendisse blandit lobortis diam ut iaculis. Mauris tincidunt, ipsum at condimentum ornare, metus lacus commodo odio, eu fermentum nisi ex eget eros.
+    </p>
+  </div>
   <div>
     <p>News</p>
     <p>{{post.date}}</p>
