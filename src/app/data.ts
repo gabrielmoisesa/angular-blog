@@ -5,7 +5,6 @@ const data:PostType[] = [
     img: 'https://miro.medium.com/v2/resize:fit:720/0*1yo17Ov28sa7p33N',
     date: 'Sep 7',
     title: 'New free, interactive Angular course for beginners on Sololearn',
-    color: '#DD0031',
   },
   {
     img: 'https://miro.medium.com/v2/resize:fit:720/format:webp/1*CNy2EclZxC1hmi_govb_7w.png',
