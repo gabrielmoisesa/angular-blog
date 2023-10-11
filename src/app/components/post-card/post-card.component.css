@@ -26,6 +26,10 @@
       color: black;
       max-width: 25rem;
 
+      &:hover {
+        text-decoration: underline;
+      }
+
       & h2 {
         font-weight: 500;
       }
