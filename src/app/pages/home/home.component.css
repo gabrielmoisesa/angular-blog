@@ -1,7 +1,31 @@
 h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   font-weight: 500;
   color: var(--red);
-  margin-top: 5rem;
+  margin: 5rem 0;
   margin-left: 4rem;
+}
+
+hr {
+  height: 1px; 
+  background-color: var(--red);
+  opacity: 0.5; 
+  border: none;
+  margin: 0;
+}
+
+.posts-container {
+  border-left: 2px solid var(--light-gray);
+  margin-left: 3rem;
+  padding-top: 3rem;
+
+  .post-card {
+    display: flex;
+    padding: 1rem 0;
+  
+    .post-number {
+      font-size: 3rem;
+      margin: 0 5.5rem;
+    }
+  }
 }

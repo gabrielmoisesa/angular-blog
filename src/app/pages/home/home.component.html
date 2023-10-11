@@ -1,12 +1,15 @@
 <div>
   <h1>Latest Posts</h1>
-  <div *ngFor="let post of data; let i = index">
-    <p>{{i + 1}}</p>
-    <app-post-card
-      [imgSrc]="post.img"
-      [title]="post.title"
-      [date]="post.date"
-    >
-    </app-post-card>
+  <hr>
+  <div class="posts-container">
+    <div *ngFor="let post of data; let i = index" class="post-card">
+      <p class="post-number">{{i + 1}}</p>
+      <app-post-card
+        [imgSrc]="post.img"
+        [title]="post.title"
+        [date]="post.date"
+      >
+      </app-post-card>
+    </div>
   </div>
 </div>
