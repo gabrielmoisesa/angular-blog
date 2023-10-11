@@ -1,6 +1,7 @@
 <div>
   <h1>Latest Posts</h1>
-  <div *ngFor="let post of data">
+  <div *ngFor="let post of data; let i = index">
+    <p>{{i + 1}}</p>
     <app-post-card
       [imgSrc]="post.img"
       [title]="post.title"
