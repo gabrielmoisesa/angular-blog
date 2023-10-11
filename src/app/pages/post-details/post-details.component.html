@@ -1,1 +1,5 @@
-<p>post-details works!</p>
+<div *ngIf="getPostDataByTitle(postTitle); let post">
+  <h1>{{post.title}}</h1>
+  <p>{{post.date}}</p>
+  <img src={{post.img}} alt={{post.title}}>
+</div>
