@@ -1,11 +1,12 @@
 .post-card-container {
   display: flex;
-  width: 60%;
+  width: 50rem;
 
   & img {
-    width: 37.5vh;
-    height: 25vh;
-    object-fit: cover;
+    width: 30vh;
+    height: 20vh; 
+    border: 1px solid black;
+    object-fit: cover; 
   }
 
   .card-info {
@@ -17,7 +18,6 @@
 
     & h2 {
       font-weight: 500;
-      word-break: break-all;
     }
   }
 }
