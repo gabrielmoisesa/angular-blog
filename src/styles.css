@@ -1,5 +1,5 @@
 @import 'node_modules/modern-normalize/modern-normalize.css';
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+NKo+Unjoined&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+NKo+Unjoined:wght@400;500&display=swap');
 
 :root {
   --light-gray: #d9d9d9;

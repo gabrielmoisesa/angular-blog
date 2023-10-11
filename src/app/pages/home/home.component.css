@@ -1,0 +1,7 @@
+h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: var(--red);
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
