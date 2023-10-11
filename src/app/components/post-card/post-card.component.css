@@ -21,9 +21,14 @@
       color: gray;
     }
 
-    & h2 {
-      font-weight: 500;
+    & a {
+      text-decoration: none;
+      color: black;
       max-width: 25rem;
+
+      & h2 {
+        font-weight: 500;
+      }
     }
   }
 }
