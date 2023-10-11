@@ -40,6 +40,8 @@
     }
 
     .card-info {
+      margin: 0;
+
       & h2 {
         font-size: 1.2rem;
         max-width: 15rem;
