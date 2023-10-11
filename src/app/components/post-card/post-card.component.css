@@ -1,0 +1,23 @@
+.post-card-container {
+  display: flex;
+  width: 60%;
+
+  & img {
+    width: 37.5vh;
+    height: 25vh;
+    object-fit: cover;
+  }
+
+  .card-info {
+    margin-left: 1rem;
+
+    & p {
+      color: gray;
+    }
+
+    & h2 {
+      font-weight: 500;
+      word-break: break-all;
+    }
+  }
+}
