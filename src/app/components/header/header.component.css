@@ -64,3 +64,17 @@ header {
   }
 
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-bottom: 1rem;
+  }
+
+  .vertical-line {
+   height: 3rem !important;
+   margin: 0 2rem !important;
+  }
+}
