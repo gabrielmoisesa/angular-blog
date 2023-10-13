@@ -5,3 +5,58 @@
   width: 100%;
   height: 4.2rem;
 }
+
+.main-post-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+  padding-left: 3rem;
+  border-left: 2px solid var(--light-gray);
+
+
+  > img {
+    width: 40vw;
+    border: 1px solid var(--light-gray);
+  }
+
+  > a {
+    width: fit-content;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .post-content {
+    display: flex;
+
+    .post-text-content {
+      display: flex;
+      flex-direction: column;
+      width: 60vw;
+  
+  
+      > h2 {
+        margin-top: 1rem;
+      }
+    }
+  }
+
+  .post-credits-container {
+    margin: 0 3.5vw;
+
+    & p:nth-child(1) {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    & p:nth-child(2), p:nth-child(3) {
+      color: gray;
+      margin: 0.5rem 0;
+    }
+  }
+}
+
