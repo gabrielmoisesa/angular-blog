@@ -3,7 +3,7 @@
   <div class="main-post-container">
     <h1>{{ post.title }}</h1>
     <img src="{{ post.img }}" alt="{{ post.title }}" />
-    <a routerLink="/">< Back to posts</a>
+    <a routerLink="/"><span [style.color]="post.color">< </span>Back to posts</a>
     <div class="post-content">
       <div class="post-text-content">
         <h2>
@@ -36,7 +36,7 @@
         </p>
       </div>
       <div class="post-credits-container">
-        <p>News</p>
+        <p [style.color]="post.color">News</p>
         <p>{{ post.date }}</p>
         <p>
           Published in
