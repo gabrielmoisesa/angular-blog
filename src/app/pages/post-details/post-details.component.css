@@ -57,6 +57,11 @@
       color: gray;
       margin: 0.5rem 0;
     }
+    
+    & p:nth-child(3) > a {
+      color: black;
+      color: gray;
+    }
 
     & ul {
       display: flex;
