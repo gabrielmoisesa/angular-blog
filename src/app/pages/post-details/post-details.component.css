@@ -78,3 +78,57 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .post-color {
+    height: 8.7rem;
+  }
+
+  .main-post-container {
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+
+    > h1 {
+      text-align: center;
+      margin: 1.5rem 1rem;
+    }
+
+    > img {
+      width: 80vw;
+    }
+
+    > a {
+      font-size: 1.1rem;
+    }
+
+    .post-content {
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+      margin-top: 1rem;
+
+      .post-text-content {
+        text-align: justify;
+        width: 80vw;
+      }
+      
+      .post-credits-container {
+        margin: 0;
+
+        & p:nth-child(1) {
+          font-size: 1.25rem;
+          margin-bottom: 1rem;
+        }
+
+        & ul {
+          flex-direction: row;
+          justify-content: center;
+          gap: 0.85rem;
+        }
+      }
+    }
+
+  }
+}
