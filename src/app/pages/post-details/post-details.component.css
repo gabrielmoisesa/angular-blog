@@ -57,6 +57,19 @@
       color: gray;
       margin: 0.5rem 0;
     }
+
+    & ul {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+      gap: 0.5rem;
+      list-style: none;
+      margin-top: 1.5rem;
+
+      & img {
+        width: 30px;
+      }
+    }
   }
 }
 
