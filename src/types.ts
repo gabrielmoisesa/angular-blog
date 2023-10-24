@@ -1,7 +1,8 @@
 export type ContentItem = {
-  type: 'heading' | 'paragraph';
-  text: string;
+  type: 'heading' | 'paragraph' | 'image';
+  text?: string;
   format?: 'italic';
+  img?: string;
 }
 
 export type PostType = {

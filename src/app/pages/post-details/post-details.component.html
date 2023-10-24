@@ -14,6 +14,10 @@
           <ng-template #paragraph>
             <p class={{item.format}}>{{ item.text }}</p>
           </ng-template>
+          <div *ngIf="item.type === 'image'; then image"></div>
+          <ng-template #image>
+            <img [src]="item.img" alt="Image" />
+          </ng-template>
         </ng-container>
       </div>
       <div class="post-credits-container">

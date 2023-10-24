@@ -15,6 +15,10 @@ const data:PostType[] = [
         text: 'With hands-on coding exercises and projects, learners get practical experience working with real examples of Angular code. They’ll learn the fundamentals of Angular, such as components, routing, and more.',
       },
       {
+        type: 'image',
+        img: 'https://miro.medium.com/v2/resize:fit:720/0*uh85lJ2zUMrrspU0'
+      },
+      {
         type: 'paragraph',
         text: 'Example of how you can use Sololearn’s interactive platform to learn Angular',
         format: 'italic',
