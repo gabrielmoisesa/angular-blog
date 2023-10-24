@@ -1,0 +1,21 @@
+footer {
+  border-top: 1px solid var(--light-gray);
+  padding: 0 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .c-symbol {
+    font-size: 0.9rem;
+    color: gray;
+  }
+
+  & a {
+    color: black;
+
+    &:hover {
+      color: var(--red);
+    }
+  }
+
+}
