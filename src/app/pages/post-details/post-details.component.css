@@ -83,6 +83,14 @@
   }
 }
 
+@media screen and (min-width: 769px) {
+  .post-text-content {
+    & img {
+      max-width: 40vw;
+    }
+  }
+}
+
 @media screen and (max-width: 768px) {
   .post-color {
     height: 8.7rem;
