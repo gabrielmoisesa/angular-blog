@@ -7,6 +7,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { PostCardComponent } from './components/post-card/post-card.component';
 import { PostDetailsComponent } from './pages/post-details/post-details.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PostDetailsComponent } from './pages/post-details/post-details.componen
     HomeComponent,
     HeaderComponent,
     PostCardComponent,
-    PostDetailsComponent
+    PostDetailsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
